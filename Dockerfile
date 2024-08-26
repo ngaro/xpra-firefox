@@ -27,4 +27,4 @@ Path=abcdefgh.default\n\
 ' > .mozilla/firefox/profiles.ini
 
 #Run firefox in xpra
-CMD ["run_in_xpra", "firefox"]
+CMD ["run_in_xpra", "firefox-esr"]

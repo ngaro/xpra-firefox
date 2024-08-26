@@ -34,7 +34,7 @@ You can also use this to run firefox locally in a container:
 
 ```
 docker run -d --net host -e DISPLAY=$DISPLAY --rm -v /dev/shm:/dev/shm \
---device /dev/snd -v $HOME/.Xauthority:/root/.Xauthority garo/xpra-firefox firefox
+--device /dev/snd -v $HOME/.Xauthority:/root/.Xauthority garo/xpra-firefox
 ```
 
 ## Issues
