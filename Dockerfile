@@ -1,5 +1,5 @@
 FROM garo/easy-xpra:latest
-MAINTAINER Nikolas Garofil "nikolas@garofil.be"
+LABEL maintainer="Nikolas Garofil"
 ARG APPUSERUID=1000
 ARG APPGROUPGID=1000
 
